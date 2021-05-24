@@ -1,0 +1,9 @@
+commit 8a08e6c0d89da7529eb3c3a0ba76b8b2724dae78
+tree 96eabddca934f6e79e75866c143330ae29a64301
+parent 90cc4c44d85d5d6b881db2b8b83b4d6f5c3fdec5
+author Maclawg <63952564+Maclawg@users.noreply.github.com> 2021-05-17 20:07:51 +0200
+committer GitHub <noreply@github.com> 2021-05-17 20:07:51 +0200
+
+    Update application.properties
+
+:100644 100644 f620381b549eeb0c0e3db230b6b144edb4deef06 4c00e40debf74912d9b7c8da72b78461cde4dd86 M	src/main/resources/application.properties

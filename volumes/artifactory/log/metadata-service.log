@@ -1,0 +1,135 @@
+2021-05-24T18:29:16.563Z [jfmd ] [INFO ] [44d7132f8a4215be] [security_keys.go:149          ] [main                ] - Master key is missing. Pending for 5 seconds with 2m0s timeout [init]
+2021-05-24T18:29:21.564Z [jfmd ] [INFO ] [44d7132f8a4215be] [security_keys.go:149          ] [main                ] - Master key is missing. Pending for 10 seconds with 2m0s timeout [init]
+2021-05-24T18:29:26.565Z [jfmd ] [INFO ] [44d7132f8a4215be] [security_keys.go:163          ] [main                ] - Cluster join: Join key is missing. Pending for 15 seconds with 2m0s timeout [init]
+2021-05-24T18:29:28.566Z [jfmd ] [INFO ] [44d7132f8a4215be] [database_bearer.go:101        ] [main                ] - Connecting to (db config: {sqlite /opt/jfrog/artifactory/var/data/metadata/sqlite.db?_fk=yes&_busy_timeout=5000&_txlock=immediate&cache=shared}) [database]
+2021-05-24T18:29:28.608Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:60                ] [main                ] - Applying 45 migrations files [database]
+2021-05-24T18:29:28.616Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v001_packages.sql successfully applied (4 statements) [database]
+2021-05-24T18:29:28.619Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v002_versions.sql successfully applied (5 statements) [database]
+2021-05-24T18:29:28.636Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v003_package_qualifiers.sql successfully applied (2 statements) [database]
+2021-05-24T18:29:28.646Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v004_package_user_properties.sql successfully applied (3 statements) [database]
+2021-05-24T18:29:28.663Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v005_package_tags.sql successfully applied (2 statements) [database]
+2021-05-24T18:29:28.681Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v006_package_stats.sql successfully applied (1 statements) [database]
+2021-05-24T18:29:28.697Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v007_sources.sql successfully applied (2 statements) [database]
+2021-05-24T18:29:28.708Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v008_package_info_sources.sql successfully applied (3 statements) [database]
+2021-05-24T18:29:28.725Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v009_servers.sql successfully applied (2 statements) [database]
+2021-05-24T18:29:28.741Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v010_version_qualifiers.sql successfully applied (3 statements) [database]
+2021-05-24T18:29:28.759Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v011_version_user_properties.sql successfully applied (3 statements) [database]
+2021-05-24T18:29:28.770Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v012_version_tags.sql successfully applied (3 statements) [database]
+2021-05-24T18:29:28.787Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v013_version_stats.sql successfully applied (1 statements) [database]
+2021-05-24T18:29:28.803Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v014_licenses.sql successfully applied (2 statements) [database]
+2021-05-24T18:29:28.813Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v015_files.sql successfully applied (5 statements) [database]
+2021-05-24T18:29:28.831Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v016_file_qualifiers.sql successfully applied (3 statements) [database]
+2021-05-24T18:29:28.848Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v017_package_licenses.sql successfully applied (3 statements) [database]
+2021-05-24T18:29:28.859Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v018_version_licenses.sql successfully applied (3 statements) [database]
+2021-05-24T18:29:28.876Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v019_files_versions.sql successfully applied (3 statements) [database]
+2021-05-24T18:29:28.893Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v020_repo.sql successfully applied (2 statements) [database]
+2021-05-24T18:29:28.910Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v021_lead_paths.sql successfully applied (4 statements) [database]
+2021-05-24T18:29:28.920Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v022_package_descriptions.sql successfully applied (1 statements) [database]
+2021-05-24T18:29:28.937Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v023_contributors.sql successfully applied (2 statements) [database]
+2021-05-24T18:29:28.953Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v024_version_contributors.sql successfully applied (3 statements) [database]
+2021-05-24T18:29:28.971Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v025_sharedconfigs.sql successfully applied (2 statements) [database]
+2021-05-24T18:29:28.982Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v026_version_vulns.sql successfully applied (1 statements) [database]
+2021-05-24T18:29:28.999Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v027_package_vulns.sql successfully applied (1 statements) [database]
+2021-05-24T18:29:29.017Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v028_versions_ordinal_index.sql successfully applied (1 statements) [database]
+2021-05-24T18:29:29.030Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v029_qualifier_user_prop_length.sql successfully applied (0 statements) [database]
+2021-05-24T18:29:29.047Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v030_version_addcolumn_size.sql successfully applied (1 statements) [database]
+2021-05-24T18:29:29.065Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v031_package_add_base_model_complete.sql successfully applied (1 statements) [database]
+2021-05-24T18:29:29.097Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v032_rename_stats_columns.sql successfully applied (3 statements) [database]
+2021-05-24T18:29:29.102Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v033_rename_size_column.sql successfully applied (1 statements) [database]
+2021-05-24T18:29:29.125Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v034_ver_stats_fk_ver_repos_fk.sql successfully applied (11 statements) [database]
+2021-05-24T18:29:29.131Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v035_files_unique_name_sha256.sql successfully applied (4 statements) [database]
+2021-05-24T18:29:29.149Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v036_version_add_modified.sql successfully applied (1 statements) [database]
+2021-05-24T18:29:29.160Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v037_version_add_base_model_complete.sql successfully applied (1 statements) [database]
+2021-05-24T18:29:29.177Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v038_file_targets.sql successfully applied (2 statements) [database]
+2021-05-24T18:29:29.194Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v039_file_targets_fk.sql successfully applied (1 statements) [database]
+2021-05-24T18:29:29.205Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v042_async_data_converter.sql successfully applied (5 statements) [database]
+2021-05-24T18:29:29.222Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v043_add_mark_for_deletion.sql successfully applied (3 statements) [database]
+2021-05-24T18:29:29.239Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v044_add_dependant_task.sql successfully applied (1 statements) [database]
+2021-05-24T18:29:29.255Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v045_delete_reorder_prerelease_version_task.sql successfully applied (1 statements) [database]
+2021-05-24T18:29:29.265Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v046_add_cvss3.sql successfully applied (2 statements) [database]
+2021-05-24T18:29:29.281Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:221               ] [main                ] - Migration v047_reorder_task_temp_table.sql successfully applied (2 statements) [database]
+2021-05-24T18:29:29.298Z [jfmd ] [INFO ] [44d7132f8a4215be] [migrator.go:69                ] [main                ] - Applied 110 database migrations statements in 688.009649ms seconds [database]
+2021-05-24T18:29:29.799Z [jfmd ] [INFO ] [44d7132f8a4215be] [application.go:68             ] [main                ] - Metadata (jfmd) service initialization started. Version: 7.19.4 Revision: a650c79d3af PID: 3441 Home: /opt/jfrog/artifactory/var [app_initializer]
+2021-05-24T18:29:29.805Z [jfmd ] [INFO ] [44d7132f8a4215be] [server_bearer.go:171          ] [main                ] - Created service_id and pushed to store: jfmd@01f6ft76j7q5md8pfqpzbtepvc [ServerInit]
+2021-05-24T18:29:33.819Z [jfmd ] [INFO ] [44d7132f8a4215be] [accessclient.go:57            ] [main                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Failed to access :http://localhost:8046/access/api/v1/system/ping return status code : 404 [access_client]
+2021-05-24T18:29:34.928Z [jfmd ] [INFO ] [44d7132f8a4215be] [accessclient.go:57            ] [main                ] - Cluster join: Successfully joined the cluster [access_client]
+2021-05-24T18:29:34.928Z [jfmd ] [INFO ] [44d7132f8a4215be] [accessclient.go:57            ] [main                ] - Cluster join: executing Router register at: localhost:8046 for service id jfmd@01f6ft76j7q5md8pfqpzbtepvc [access_client]
+2021-05-24T18:29:35.017Z [jfmd ] [INFO ] [44d7132f8a4215be] [async_converter.go:194        ] [main                ] - Starting async converter routine [async_converter] [workerNumber][1]
+2021-05-24T18:29:35.017Z [jfmd ] [INFO ] [44d7132f8a4215be] [router_middlewares.go:55      ] [main                ] - 
+Metadata Info
+========================
+
+Logging.Application.Rotation.Compress                | true
+Logging.Request.Rotation.Compress                    | true
+AccessClient.JoinTimeout                             | 3m0s
+Keys.ReadIntervalDuration                            | 1s
+Shared.NewRelic.AppName                              | 
+Shared.NewRelic.DistributedTracerEnabled             | true
+Logging.Application.Level                            | info
+Logging.Application.Rotation.MaxSizeMb               | 25
+Logging.Request.Rotation.MaxSizeMb                   | 25
+Logging.Request.Rotation.MaxFiles                    | 10
+Logging.Request.Rotation.MaxAgeDays                  | 365
+Database.Type                                        | 1
+Shared.NewRelic.EnableDebugLog                       | false
+Keys.ReadAttempts                                    | 120
+Logging.Application.Rotation.MaxFiles                | 10
+Logging.Application.Rotation.IntervalSeconds         | 0
+Logging.Request.FilePath                             | metadata-request.log
+AccessClient.Url                                     | http://localhost:8081/access
+Shared.NewRelic.Enabled                              | false
+Port                                                 | 8086
+Logging.Application.FilePath                         | metadata-service.log
+Logging.Application.Rotation.MaxAgeDays              | 365
+Logging.Request.Rotation.IntervalSeconds             | 0
+Profiling.Enabled                                    | false
+
+2021-05-24T18:29:35.018Z [jfmd ] [INFO ] [44d7132f8a4215be] [router_middlewares.go:56      ] [main                ] - Metadata (jfmd) service initialization completed in 5.218 seconds. Listening on port: 8086 [router]
+2021-05-24T18:29:37.065Z [jfmd ] [WARN ] [44d7132f8a4215be] [versions_package_id_ordinal_in] [main                ] - Running DB indexes [md_version_pkgid_ordinal_idx,md_versions_package_id_idx,md_versions_ordinal_idx] maintenance in the background, it might cause some slowness in the Metadata service [BatchEndKey][1] [BatchKey][versionsPackageIdOrdinalIndexTask] [BatchStartKey][0] [versions_package_id_ordinal_index_task] [workerNumber][1]
+2021-05-24T18:29:37.066Z [jfmd ] [WARN ] [44d7132f8a4215be] [versions_package_id_ordinal_in] [main                ] - Finished with DB indexes [[md_version_pkgid_ordinal_idx md_versions_package_id_idx md_versions_ordinal_idx]] background maintenance, Metadata service is back to normal [BatchEndKey][1] [BatchKey][versionsPackageIdOrdinalIndexTask] [BatchStartKey][0] [versions_package_id_ordinal_index_task] [workerNumber][1]
+2021-05-24T18:29:39.075Z [jfmd ] [WARN ] [44d7132f8a4215be] [ver_repos_lead_file_path_index] [main                ] - Running DB index [md_ver_repos_lead_file_pth_idx] maintenance in the background, it might cause some slowness in the Metadata service [BatchEndKey][1] [BatchKey][verReposLeadFilePathIndexIndexTask] [BatchStartKey][0] [ver_repos_lead_file_path_index_task] [workerNumber][1]
+2021-05-24T18:29:39.076Z [jfmd ] [WARN ] [44d7132f8a4215be] [ver_repos_lead_file_path_index] [main                ] - Finished with DB index [md_ver_repos_lead_file_pth_idx] background maintenance, Metadata service is back to normal [BatchEndKey][1] [BatchKey][verReposLeadFilePathIndexIndexTask] [BatchStartKey][0] [ver_repos_lead_file_path_index_task] [workerNumber][1]
+2021-05-24T18:43:04.830Z [jfmd ] [INFO ] [227041b7f8219cfe] [database_bearer.go:101        ] [main                ] - Connecting to (db config: {sqlite /opt/jfrog/artifactory/var/data/metadata/sqlite.db?_fk=yes&_busy_timeout=5000&_txlock=immediate&cache=shared}) [database]
+2021-05-24T18:43:04.852Z [jfmd ] [INFO ] [227041b7f8219cfe] [migrator.go:60                ] [main                ] - Applying 45 migrations files [database]
+2021-05-24T18:43:05.353Z [jfmd ] [INFO ] [227041b7f8219cfe] [application.go:68             ] [main                ] - Metadata (jfmd) service initialization started. Version: 7.19.4 Revision: a650c79d3af PID: 3140 Home: /opt/jfrog/artifactory/var [app_initializer]
+2021-05-24T18:43:05.354Z [jfmd ] [INFO ] [227041b7f8219cfe] [server_bearer.go:169          ] [main                ] - Got service_id from datastore: jfmd@01f6ft76j7q5md8pfqpzbtepvc [ServerInit]
+2021-05-24T18:43:09.477Z [jfmd ] [INFO ] [227041b7f8219cfe] [accessclient.go:57            ] [main                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-05-24T18:43:14.487Z [jfmd ] [INFO ] [227041b7f8219cfe] [accessclient.go:57            ] [main                ] - Cluster join: Retry 10: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-05-24T18:43:19.493Z [jfmd ] [INFO ] [227041b7f8219cfe] [accessclient.go:57            ] [main                ] - Cluster join: Retry 15: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-05-24T18:43:24.503Z [jfmd ] [INFO ] [227041b7f8219cfe] [accessclient.go:57            ] [main                ] - Cluster join: Retry 20: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-05-24T18:43:29.507Z [jfmd ] [INFO ] [227041b7f8219cfe] [accessclient.go:57            ] [main                ] - Cluster join: Retry 25: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-05-24T18:43:34.510Z [jfmd ] [INFO ] [227041b7f8219cfe] [accessclient.go:57            ] [main                ] - Cluster join: Retry 30: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-05-24T18:43:39.522Z [jfmd ] [INFO ] [227041b7f8219cfe] [accessclient.go:57            ] [main                ] - Cluster join: Retry 35: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Failed to access :http://localhost:8046/access/api/v1/system/ping return status code : 404 [access_client]
+2021-05-24T18:43:41.682Z [jfmd ] [INFO ] [227041b7f8219cfe] [accessclient.go:57            ] [main                ] - Cluster join: Successfully joined the cluster [access_client]
+2021-05-24T18:43:41.683Z [jfmd ] [INFO ] [227041b7f8219cfe] [accessclient.go:57            ] [main                ] - Cluster join: executing Router register at: localhost:8046 for service id jfmd@01f6ft76j7q5md8pfqpzbtepvc [access_client]
+2021-05-24T18:43:41.746Z [jfmd ] [INFO ] [227041b7f8219cfe] [router_middlewares.go:55      ] [main                ] - 
+Metadata Info
+========================
+
+Logging.Request.Rotation.Compress                    | true
+Port                                                 | 8086
+Shared.NewRelic.Enabled                              | false
+Shared.NewRelic.EnableDebugLog                       | false
+Logging.Application.Rotation.IntervalSeconds         | 0
+Logging.Application.Rotation.MaxAgeDays              | 365
+Profiling.Enabled                                    | false
+Shared.NewRelic.AppName                              | 
+Logging.Application.Rotation.MaxSizeMb               | 25
+Logging.Application.Rotation.MaxFiles                | 10
+Logging.Application.Rotation.Compress                | true
+Keys.ReadIntervalDuration                            | 1s
+Logging.Request.Rotation.MaxSizeMb                   | 25
+Logging.Request.Rotation.MaxFiles                    | 10
+Logging.Request.Rotation.MaxAgeDays                  | 365
+Logging.Request.Rotation.IntervalSeconds             | 0
+Shared.NewRelic.DistributedTracerEnabled             | true
+Logging.Application.FilePath                         | metadata-service.log
+Logging.Application.Level                            | info
+Logging.Request.FilePath                             | metadata-request.log
+Database.Type                                        | 1
+AccessClient.Url                                     | http://localhost:8081/access
+AccessClient.JoinTimeout                             | 3m0s
+Keys.ReadAttempts                                    | 120
+
+2021-05-24T18:43:41.746Z [jfmd ] [INFO ] [227041b7f8219cfe] [router_middlewares.go:56      ] [main                ] - Metadata (jfmd) service initialization completed in 36.393 seconds. Listening on port: 8086 [router]
+2021-05-24T18:43:41.746Z [jfmd ] [INFO ] [227041b7f8219cfe] [async_converter.go:194        ] [main                ] - Starting async converter routine [async_converter] [workerNumber][1]

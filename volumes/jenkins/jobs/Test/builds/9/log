@@ -1,0 +1,10 @@
+Started by user [8mha:////4Bd5OVLHQ2TAqoPRXtWC3O4O5Plakk5xwc45x1djHEJKAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9gsS8lEQACjKVYMAAAAA=[0mPanda
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/Test
+[Test] $ /bin/sh -xe /tmp/jenkins15645229120253937579.sh
++ [ false = true ]
++ echo test2
+test2
++ echo dupaaaa!!!
+dupaaaa!!!
+Finished: SUCCESS
